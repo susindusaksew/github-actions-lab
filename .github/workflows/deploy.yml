@@ -31,11 +31,6 @@ jobs:
             exit 1
           fi
 
-      - name: Test CI Failure
-        run: |
-          echo "Testing CI failure"
-          exit 1
-
       - name: CI successful
         run: echo "Website validation completed successfully."
 
